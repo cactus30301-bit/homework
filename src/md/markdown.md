@@ -246,3 +246,19 @@ markdown - 문서 작성용 경량 마크업
    [^깃주소2][![김효경 과제 깃허브](/src/md/images/door.png)](https://github.com/cactus30301-bit/homework.git)
    [^깃주소]: `[김효경 과제 깃허브](https://github.com/cactus30301-bit/homework.git)`
    [^깃주소2]: `[![김효경 과제 깃허브](/src/md/images/door.png)](https://github.com/cactus30301-bit/homework.git)`
+
+---
+
+###### _앗 나의 실수 이자 더 알고 싶은 부분_
+
+- 루트디렉토리? 설정을 잘못했다... (src로 했어야 했는데 md로 한 것 같다. 그래서 이미지 폴더를 md 안에 다시 하나 만들었다...)
+- 리스트로 계층 구조 만드는게 중요할 것 같은데 아직 제대로 못하겠다.
+- 태스크 리스트는 깃에서 실제 작동이 안된다.
+- 마크다운 문법으로는 이미지 사이즈 조절이 안돼서 html을 써야 한다고 한다.  
+  근데 나 아직 html 못한다...
+- 마크다운 문법을 사용하여 즉각적으로 결과를 보면서 하니 너무 재밌다!!
+<p>
+
+---
+
+마크업 : [참고1](https://tlsdnjs12.tistory.com/32) | [참고2](https://developer.mozilla.org/ko/docs/Glossary/Markup) | 마크다운 :『세컨드 브레인은 옵시디언』| [참고3](https://gist.github.com/ihoneymon/652be052a0727ad59601) | [참고4](https://inpa.tistory.com/entry/MarkDown-%F0%9F%93%9A-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EB%AC%B8%EB%B2%95-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC#line_breaks_%EC%A4%84%EB%B0%94%EA%BF%88) | [참고5](https://www.youtube.com/watch?v=kMEb_BzyUqk)
