@@ -1,67 +1,27 @@
-.avatarStatus-1 {
+.avatarStatus {
   position: relative;
+  margin-inline: 10px;
+  margin-block: 10px;
   /* border: 5px solid red; */
-}
-
-.avatarStatus-2 {
-  position: relative;
-  /* border: 5px solid red; */
-}
-
-.avatarStatus-3 {
-  position: relative;
-  /* border: 5px solid red; */
-}
-
-.avatarStatus-4 {
-  position: relative;
-  /* border: 5px solid red; */
-}
-
-.avatarStatus-5 {
-  position: relative;
-  /* border: 5px solid red; */
-}
-
-.avatarStatus-6 {
-  position: relative;
-  /* border: 5px solid red; */
-}
-
-.avatarStatus-7 {
-  position: relative;
-  /* border: 5px solid red; */
-}
-
-.avatarStatus-8 {
-  position: relative;
-  /* border: 5px solid red; */
+  float: left;
 }
 
 .avatars {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  /* margin: 20px; */
-  position: relative;
-}
-
-li {
-  /* display: inline-block; */
-  margin: 20px;
-  display: flex;
+  display: block;
 }
 
 ul {
   list-style-type: none;
-  /* display: flex; */
-  /* display: block; */
+  display: flex;
   padding-inline-start: 0;
   margin: 0;
 }
 
 .on {
-  background-color: green;
+  background-color: #4cfe88;
   border-radius: 50%;
   width: 18px;
   height: 18px;
@@ -69,11 +29,11 @@ ul {
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  float: right;
 }
 
 .off {
-  background-color: gray;
+  background-color: #dbdbdb;
   border-radius: 50%;
   width: 18px;
   height: 18px;
@@ -81,5 +41,100 @@ ul {
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  float: right;
+}
+
+/* list 방식 끝 -- display: flex로 ul 간 margin collapse 무시되는 부분 해결 못해서 bottom 제외 각각 20px 마진 줌*/
+
+.avatarsCard02 {
+  width: 420px;
+  height: 225px;
+  /* border: 1px solid red; */
+  padding: 20px;
+  display:;
+}
+
+.avatarStatus02 {
+  position: relative;
+  display: inline-flex;
+  /* border: red 3px solid; */
+  margin-inline: 10px;
+  margin-block: 10px;
+}
+
+figure {
+  margin: 0;
+}
+
+.avatars02 {
+  border-radius: 50%;
+}
+
+.on02 {
+  background-color: #4cfe88;
+  border-radius: 50%;
+  border: white 1px solid;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  float: right;
+  right: 0;
+  bottom: 0;
+}
+
+.off02 {
+  background-color: #dbdbdb;
+  border: 1px solid white;
+  border-radius: 50%;
+  float: right;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+}
+
+/* 표로 해보기 */
+
+.avatarsCard03 {
+  padding: 20px;
+  margin: 20px;
+  border: hidden;
+}
+
+.avatarStatus03 {
+  position: relative;
+  /* border: 3px solid red; */
+  display: inline-flex;
+  margin: 10px;
+}
+
+.avatars03 {
+  border-radius: 50%;
+  float: left;
+  display: block;
+}
+
+.on03 {
+  background-color: #4cfe88;
+  border-radius: 50%;
+  border: white 1px solid;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  float: right;
+  right: 0;
+  bottom: 0;
+}
+
+.off03 {
+  background-color: #dbdbdb;
+  border: 1px solid white;
+  border-radius: 50%;
+  float: right;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 18px;
+  height: 18px;
 }
