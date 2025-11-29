@@ -1,1 +1,85 @@
-/* 여기에 스타일을 구현해 주세요 */
+.avatarStatus-1 {
+  position: relative;
+  /* border: 5px solid red; */
+}
+
+.avatarStatus-2 {
+  position: relative;
+  /* border: 5px solid red; */
+}
+
+.avatarStatus-3 {
+  position: relative;
+  /* border: 5px solid red; */
+}
+
+.avatarStatus-4 {
+  position: relative;
+  /* border: 5px solid red; */
+}
+
+.avatarStatus-5 {
+  position: relative;
+  /* border: 5px solid red; */
+}
+
+.avatarStatus-6 {
+  position: relative;
+  /* border: 5px solid red; */
+}
+
+.avatarStatus-7 {
+  position: relative;
+  /* border: 5px solid red; */
+}
+
+.avatarStatus-8 {
+  position: relative;
+  /* border: 5px solid red; */
+}
+
+.avatars {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  /* margin: 20px; */
+  position: relative;
+}
+
+li {
+  /* display: inline-block; */
+  margin: 20px;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  /* display: flex; */
+  /* display: block; */
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.on {
+  background-color: green;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  border: 1px white solid;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.off {
+  background-color: gray;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  border: 1px white solid;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
