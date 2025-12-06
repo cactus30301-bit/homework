@@ -1,6 +1,6 @@
 /* 모바일 */
 .mobile-box {
-  box-shadow: 0 0 1px 2px blue;
+  box-shadow: 0 0 7px 1px #e1e1e1;
   inline-size: 20rem;
   block-size: 30rem;
   display: flex;
@@ -9,13 +9,41 @@
   align-items: center;
 
   .logo {
-    box-shadow: 0 0 1px 2px purple;
+    /* box-shadow: 0 0 1px 2px purple; */
     inline-size: 165px;
     block-size: 32px;
     margin-block-start: 70px;
+    margin-block-end: 45px;
   }
 }
 
 .login-field {
-  box-shadow: 0 0 0 2px green;
+  /* box-shadow: 0 0 0 2px green; */
+
+  input {
+    inline-size: 290px;
+    block-size: 3rem;
+    margin-block-start: 10px;
+    border: 1px solid #dadada;
+  }
+}
+
+.login-button {
+  inline-size: 289px;
+  block-size: 3.5rem;
+  padding: 0;
+  border: 0;
+  background: #03cf5d;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flow-root;
+  margin-block-start: 1.25rem;
+  cursor: pointer;
+}
+.login-stay {
+  font-size: 14px;
+  color: #333;
+  float: inline-end;
+  margin-block: 0.625rem;
 }
