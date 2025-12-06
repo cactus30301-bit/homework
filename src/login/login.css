@@ -1,0 +1,21 @@
+/* 모바일 */
+.mobile-box {
+  box-shadow: 0 0 1px 2px blue;
+  inline-size: 20rem;
+  block-size: 30rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  .logo {
+    box-shadow: 0 0 1px 2px purple;
+    inline-size: 165px;
+    block-size: 32px;
+    margin-block-start: 70px;
+  }
+}
+
+.login-field {
+  box-shadow: 0 0 0 2px green;
+}
