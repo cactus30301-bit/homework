@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Avatars 과제</title>
+    <title>로그인 UI 과제</title>
     <link rel="shortcut icon" href="/src/assets/favicon/likelion.ico" type="image/x-icon" />
     <link rel="icon" href="/src/assets/favicon/likelion.svg" />
     <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT-Regular.woff2" />
@@ -15,8 +15,9 @@
     <a href="/index.html">Index로 이동</a>
     <h1>mobile</h1>
     <div class="mobile-box">
-      <figure class="logo">
-        <svg width="165" height="32" viewBox="0 0 521 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+      <a class="logo" href="/src/login/login.html"
+        ><svg width="165" height="32" viewBox="0 0 521 100" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M68.1295 53.4986L30.8752 0H0V99.96H32.345V46.4614L69.5993 99.96H100.475V0H68.1295V53.4986Z" fill="#03CF5D" />
           <path d="M149.977 0L110.763 99.96H144.098L148.827 86.7653H186.411L191.151 100H224.475L185.261 0.0399926L149.977 0ZM156.446 62.7149L167.624 31.4874L178.793 62.7149H156.446Z" fill="#03CF5D" />
           <path d="M264.179 65.7237L240.643 0H207.318L246.532 99.96H281.817L321.031 0H287.696L264.179 65.7237Z" fill="#03CF5D" />
@@ -26,27 +27,30 @@
             fill="#03CF5D"
           />
         </svg>
-        <figcaption class="sr-only">네이버 로고</figcaption>
-      </figure>
-      <div class="login-field">
-        <div class="login-id">
-          <label for="userId" class="sr-only">아이디</label>
-          <input type="text" id="userId" required placeholder="아이디" />
+      </a>
+<div class="container">
+        <div class="login-field">
+          <form id="inputForm" action="https://formspree.io/aaa" method="post">
+            <div class="login-id">
+              <label for="userId" class="sr-only">아이디</label>
+              <input type="text" id="userId" required placeholder="아이디" name="userid" />
+            </div>
+            <div class="login-pwd">
+              <label for="userPwd" class="sr-only">비밀번호</label>
+              <input type="password" pattern="^(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$" id="userPwd" required placeholder="비밀번호" maxlength="12" name="pwd" />
+            </div>
+          
         </div>
-        <div class="login-pwd">
-          <label for="userPwd" class="sr-only">비밀번호</label>
-          <input type="password" pattern="^(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$" id="userPwd" required placeholder="비밀번호" />
+  
+        <div>
+          <input class="login-button" type="submit" value="로그인" />
+          <div class="login-stay">
+            <input type="checkbox" name="staylogin" id="stayLogin" />
+            <label for="stayLogin">로그인 상태 유지</label>
+          </div>
         </div>
-      </div>
-
-      <div>
-        <input class="login-button" type="submit" value="로그인" />
-        <label for=""></label>
-        <div class="login-stay">
-          <input type="checkbox" name="staylogin" id="staylogin" />
-          <label for="staylogin">로그인 상태 유지</label>
-        </div>
-      </div>
+</div>
+      </form>
     </div>
   </body>
 </html>

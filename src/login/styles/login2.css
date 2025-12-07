@@ -1,0 +1,11 @@
+.login-field input,
+.login-button input {
+  width: 290px;
+}
+
+@media (max-width: 800px) {
+  .login-field input,
+  .login-button input {
+    width: 460px;
+  }
+}

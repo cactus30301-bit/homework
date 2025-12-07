@@ -1,15 +1,34 @@
+/* @media (320px <= width) {
+  .login-field,
+  .login-button {
+    inline-size: 100%;
+    min-inline-size: 290px;
+    max-inline-size: 590px;
+  }
+} */
+@media screen and (min-width: 800px) {
+  .mobile-box {
+    max-width: 500px;
+  }
+}
+/* @media (320px <= width < 500px) {
+  .login-field input,
+  .login-button input {
+    max-width: 500px;
+  }
+} */
 /* 모바일 */
 .mobile-box {
   box-shadow: 0 0 7px 1px #e1e1e1;
-  inline-size: 20rem;
-  block-size: 30rem;
+
+  inline-size: 100%;
+  block-size: 480px;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
 
   .logo {
-    /* box-shadow: 0 0 1px 2px purple; */
     inline-size: 165px;
     block-size: 32px;
     margin-block-start: 70px;
@@ -18,32 +37,42 @@
 }
 
 .login-field {
-  /* box-shadow: 0 0 0 2px green; */
+  inline-size: 100%;
+  /* / min-inline-size: 290px; */
+  /* max-inline-size: 460px; / */
 
   input {
-    inline-size: 290px;
-    block-size: 3rem;
+    inline-size: 100%;
+    block-size: 48px;
     margin-block-start: 10px;
     border: 1px solid #dadada;
   }
 }
 
 .login-button {
-  inline-size: 289px;
-  block-size: 3.5rem;
+  /* / inline-size: auto; */
+  min-inline-size: 290px;
+  /* max-inline-size: 460px; */
+  block-size: 56px;
   padding: 0;
   border: 0;
   background: #03cf5d;
   color: #fff;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 700;
   display: flow-root;
-  margin-block-start: 1.25rem;
+  margin-block-start: 20px;
   cursor: pointer;
 }
 .login-stay {
   font-size: 14px;
   color: #333;
   float: inline-end;
-  margin-block: 0.625rem;
+  margin-block: 10px;
+}
+
+.container {
+  width: 100%;
+  padding-inline: 20px;
+  box-sizing: border-box;
 }
