@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import './reset.css';
 @import './theme.css';
 @import './base.css';
@@ -448,3 +449,8 @@
     }
   }
 }
+=======
+@import "./reset.css";
+@import "./theme.css";
+@import "./base.css";
+>>>>>>> f721293 (애플 과제)
