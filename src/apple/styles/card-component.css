@@ -6,8 +6,8 @@
 .card-01 {
   block-size: var(--size);
   inline-size: 100%;
-  background: url(./src/apple/products/ipad_pro.jpeg) no-repeat;
-  background-image: image-set(url(./src/apple/products/ipad_pro.jpeg) 1x, url(./src/apple/products/ipad_pro_2x.jpeg) 2x);
+  background: url(../src/apple/products/ipad_pro.jpeg) no-repeat;
+  background-image: image-set(url(../src/apple/products/ipad_pro.jpeg) 1x, url(../src/apple/products/ipad_pro_2x.jpeg) 2x);
   background-position: center;
   background-size: cover;
   display: grid;

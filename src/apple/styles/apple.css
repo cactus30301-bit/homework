@@ -13,15 +13,15 @@
 
     .card-01 {
       grid-area: 1 / 1 / 2 / 3;
-      background-image: image-set(url(./src/apple/products/ipad_pro_wide.jpeg) 1x, url(./src/apple/products/ipad_pro_wide_2x.jpeg) 2x);
+      background-image: image-set(url(../src/apple/products/ipad_pro_wide.jpeg) 1x, url(../src/apple/products/ipad_pro_wide_2x.jpeg) 2x);
     }
     .card-02 {
       grid-area: 2 / 1 / 3 / 3;
-      background-image: image-set(url(./src/apple/products/ipad_air_wide.jpeg) 1x, url(./src/apple/products/ipad_air_wide_2x.jpeg) 2x);
+      background-image: image-set(url(../src/apple/products/ipad_air_wide.jpeg) 1x, url(../src/apple/products/ipad_air_wide_2x.jpeg) 2x);
     }
     .card-03 {
       grid-area: 3 / 1 / 4 / 3;
-      background-image: image-set(url(./src/apple/products/iphone15_pro_wide.jpeg) 1x, url(./src/apple/products/iphone15_pro_wide_2x.jpeg) 2x);
+      background-image: image-set(url(../src/apple/products/iphone15_pro_wide.jpeg) 1x, url(../src/apple/products/iphone15_pro_wide_2x.jpeg) 2x);
     }
   }
 }
