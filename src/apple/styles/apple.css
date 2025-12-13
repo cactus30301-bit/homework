@@ -14,14 +14,22 @@
     .card-01 {
       grid-area: 1 / 1 / 2 / 3;
       background-image: image-set(url(../products/ipad_pro_wide.jpeg) 1x, url(../products/ipad_pro_wide_2x.jpeg) 2x);
+      white-space: normal;
     }
     .card-02 {
       grid-area: 2 / 1 / 3 / 3;
       background-image: image-set(url(../products/ipad_air_wide.jpeg) 1x, url(../products/ipad_air_wide_2x.jpeg) 2x);
+      white-space: normal;
     }
     .card-03 {
       grid-area: 3 / 1 / 4 / 3;
       background-image: image-set(url(../products/iphone15_pro_wide.jpeg) 1x, url(../products/iphone15_pro_wide_2x.jpeg) 2x);
+    }
+    .card-04 {
+      white-space: normal;
+    }
+    .card-07 {
+      white-space: normal;
     }
   }
 }
