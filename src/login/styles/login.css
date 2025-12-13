@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* @media (320px <= width) {
   .login-field,
   .login-button {
@@ -29,6 +30,20 @@
   align-items: center;
 
   .logo {
+=======
+/* 모바일 */
+.mobile-box {
+  box-shadow: 0 0 7px 1px #e1e1e1;
+  inline-size: 20rem;
+  block-size: 30rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  .logo {
+    /* box-shadow: 0 0 1px 2px purple; */
+>>>>>>> d0efab2 (로그인 커밋 덜 되어있던 거)
     inline-size: 165px;
     block-size: 32px;
     margin-block-start: 70px;
@@ -37,6 +52,7 @@
 }
 
 .login-field {
+<<<<<<< HEAD
   inline-size: 100%;
   /* / min-inline-size: 290px; */
   /* max-inline-size: 460px; / */
@@ -44,30 +60,50 @@
   input {
     inline-size: 100%;
     block-size: 48px;
+=======
+  /* box-shadow: 0 0 0 2px green; */
+
+  input {
+    inline-size: 290px;
+    block-size: 3rem;
+>>>>>>> d0efab2 (로그인 커밋 덜 되어있던 거)
     margin-block-start: 10px;
     border: 1px solid #dadada;
   }
 }
 
 .login-button {
+<<<<<<< HEAD
   /* / inline-size: auto; */
   min-inline-size: 290px;
   /* max-inline-size: 460px; */
   block-size: 56px;
+=======
+  inline-size: 289px;
+  block-size: 3.5rem;
+>>>>>>> d0efab2 (로그인 커밋 덜 되어있던 거)
   padding: 0;
   border: 0;
   background: #03cf5d;
   color: #fff;
+<<<<<<< HEAD
   font-size: 16px;
   font-weight: 700;
   display: flow-root;
   margin-block-start: 20px;
+=======
+  font-size: 1rem;
+  font-weight: 700;
+  display: flow-root;
+  margin-block-start: 1.25rem;
+>>>>>>> d0efab2 (로그인 커밋 덜 되어있던 거)
   cursor: pointer;
 }
 .login-stay {
   font-size: 14px;
   color: #333;
   float: inline-end;
+<<<<<<< HEAD
   margin-block: 10px;
 }
 
@@ -75,4 +111,7 @@
   width: 100%;
   padding-inline: 20px;
   box-sizing: border-box;
+=======
+  margin-block: 0.625rem;
+>>>>>>> d0efab2 (로그인 커밋 덜 되어있던 거)
 }
