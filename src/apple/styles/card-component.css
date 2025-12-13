@@ -1,3 +1,64 @@
-@import "./reset.css";
-@import "./theme.css";
-@import "./base.css";
+@import './reset.css';
+@import './theme.css';
+@import './base.css';
+
+/* 카드 한장 */
+.card {
+  block-size: var(--size);
+  inline-size: 100%;
+  background: url(/src/apple/products/ipad_pro.jpeg) no-repeat;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  /* justify-items: center; */
+
+  .card-ctxt {
+    display: flex;
+    flex-direction: column;
+    grid-row: 1 / 5;
+    grid-column: 3 / 5;
+    text-align: center;
+  }
+
+  .first-model {
+    font-size: var(--large-text);
+    color: var(--white);
+
+    margin-block-start: var(--large-spacing);
+    margin-block-end: var(--small-spacing);
+  }
+  .second-ctxt {
+    font-size: var(--base-text);
+    color: var(--white);
+    margin-block-end: var(--small-spacing);
+    line-height: var(--line-normal);
+  }
+  .third-sub {
+    margin-block-end: var(--small-spacing);
+    font-size: var(--small-text);
+    color: var(--white);
+    opacity: 50%;
+    /* display: none; */
+  }
+
+  .buttons {
+    display: flex;
+    gap: var(--base-spacing);
+    justify-content: center;
+
+    button {
+      border: 1px solid var(--white);
+      border-radius: 20px;
+      padding: var(--x-small-spacing);
+      font-size: var(--xx-small-text);
+    }
+    .fourth-more {
+      background: var(--white);
+      color: var(--black);
+    }
+    .fourth-price {
+      background: transparent;
+      color: var(--white);
+    }
+  }
+}
