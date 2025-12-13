@@ -21,7 +21,12 @@
   block-size: var(--size);
   inline-size: 100%;
   background: url(/src/apple/products/ipad_pro.jpeg) no-repeat;
+<<<<<<< HEAD
 >>>>>>> 824ecc6 (애플 컴포넌트 중간 완성)
+=======
+  background-position: center;
+  background-size: cover;
+>>>>>>> 249ee20 (background-position: center, background-size: cover 짱신기하다)
   display: grid;
   grid-template-rows: repeat(8, 1fr);
   grid-template-columns: repeat(6, 1fr);
